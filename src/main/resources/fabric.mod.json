@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmo",
+  "version": "${version}",
+  "name": "Cosmo",
+  "description": "Integrate LuckPerms prefixes/suffixes with your server.",
+  "authors": ["execsuroot"],
+  "contact": {
+    "homepage": "https://execsuroot.tech"
+  },
+  "icon": "assets/cosmo/icon.webp",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["tech.execsuroot.cosmo.CosmoMod"]
+  },
+  "mixins": ["cosmo.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "luckperms": "*"
+  }
+}

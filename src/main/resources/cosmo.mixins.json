@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "tech.execsuroot.cosmo.mixin",
+  "refmap": "cosmo-refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "PlayerEntityMixin",
+    "RegistryLoaderMixin",
+    "ServerPlayerEntityMixin",
+    "ServerPlayNetworkHandlerMixin"
+  ]
+}
